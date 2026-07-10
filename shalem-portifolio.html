@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shalem Kumar Pyla — React/TypeScript Engineer, Healthcare Dashboards</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="glow-bg"></div>
+
+<nav>
+  <div class="wrap">
+    <div class="brand">Shalem<span>.</span></div>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#skills">Skills</a></li>
+    </ul>
+    <a class="nav-cta" href="#contact">Contact me →</a>
+  </div>
+</nav>
+
+<main>
+<header class="hero">
+  <div class="wrap">
+    <div class="hero-top">
+      <div>
+        <div class="eyebrow">Available for freelance engagements</div>
+        <h1 class="title">React &amp; TypeScript engineering for <span class="accent">healthcare data</span>.</h1>
+        <p class="lede">3 years building patient billing, insurance claims, and real-time scheduling systems used by 50+ medical practices. I fix what's broken and ship what's next — Redux Toolkit, DevExtreme, and REST APIs are my daily tools, not buzzwords.</p>
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="#contact">Contact me →</a>
+          <a class="btn btn-ghost" href="#work">See my work</a>
+        </div>
+      </div>
+      <div>
+        <div class="avatar-wrap">
+          <div class="avatar-inner">
+            <img src="shalem-photo.jpg" alt="Shalem Kumar Pyla">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section id="about">
+  <div class="wrap">
+    <div class="section-tag">About</div>
+    <h2>Who I am</h2>
+    <p class="about-text" style="margin-top:18px;">
+      I'm a frontend engineer based in Hyderabad, focused on <span class="accent">healthcare and fintech data systems</span> —
+      insurance claims, patient billing, and real-time scheduling. Over the last 3 years I've worked deep inside
+      <b>React, TypeScript, and Redux Toolkit</b>, building dashboards and data grids on <b>DevExtreme</b> that clinical
+      and operations teams rely on daily. I care about two things most: <b>data that renders correctly at scale</b>,
+      and <b>production bugs that get fixed fast</b>, not just patched. The live grid below in the Work section
+      is a small proof of that — try sorting or filtering it.
+    </p>
+  </div>
+</section>
+
+<section id="experience">
+  <div class="wrap">
+    <div class="section-tag">Experience</div>
+    <h2>Where I've worked</h2>
+    <p class="section-sub">Professional engagements, most recent first.</p>
+
+    <div class="timeline">
+      <div class="t-item">
+        <div class="t-dot"></div>
+        <div class="t-card">
+          <div class="t-date">APRIL 2025 — PRESENT</div>
+          <div class="t-role">Software Engineer — EHR Billing Ecosystem</div>
+          <div class="t-org">CraftAny IT Solutions · Hyderabad, India</div>
+          <div class="t-desc">Led UI updates across a primary healthcare EHR web app, built secure client-side flows for automated patient insurance processing, enforced WCAG 2.1 accessibility across modules, and standardized async data handling via Axios interceptors on an Azure-deployed pipeline.</div>
+        </div>
+      </div>
+      <div class="t-item">
+        <div class="t-dot"></div>
+        <div class="t-card">
+          <div class="t-date">MAY 2023 — APRIL 2025</div>
+          <div class="t-role">Software Engineer — Billing &amp; Insurance Claims Platform</div>
+          <div class="t-org">CraftAny IT Solutions · Hyderabad, India</div>
+          <div class="t-desc">Engineered healthcare financial workflows for insurance claims, payment posting, and patient balances. Architected a modular component library (React, Redux Toolkit, DevExtreme) rendering high-volume ledger data, and led the frontend migration for 50+ practices with zero downtime.</div>
+        </div>
+      </div>
+      <div class="t-item">
+        <div class="t-dot"></div>
+        <div class="t-card">
+          <div class="t-date">MAY 2022 — MAY 2023</div>
+          <div class="t-role">Associate Software Developer — Enterprise Scheduler</div>
+          <div class="t-org">CraftAny IT Solutions · Hyderabad, India</div>
+          <div class="t-desc">Built a real-time scheduling app with live WebSocket calendar sync, a 3-step configuration wizard for wellness program registration, QR-based guest check-in with dual-factor identity confirmation, and role-based route guards via React Router.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="work">
+  <div class="wrap">
+    <div class="section-tag">Selected work</div>
+    <h2>Case studies</h2>
+    <p class="section-sub">Project types drawn from my professional engagements. Client names withheld per standard confidentiality practice.</p>
+
+    <div class="work-grid">
+
+      <div class="work-card">
+        <div class="work-top">
+          <div class="work-icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"></rect><rect x="14" y="3" width="7" height="7" rx="1"></rect><rect x="3" y="14" width="7" height="7" rx="1"></rect><rect x="14" y="14" width="7" height="7" rx="1"></rect></svg>
+          </div>
+          <div class="work-top-text">
+            <div class="tag">HEALTH-TECH · FINTECH</div>
+            <h3>Healthcare Billing &amp; Insurance Claims Platform</h3>
+          </div>
+        </div>
+        <div class="grid-demo-bar">
+          <span class="label">LIVE DEMO — sortable &amp; filterable, not a screenshot</span>
+          <input id="gridFilter" type="text" placeholder="Filter patient/provider...">
+        </div>
+        <table class="grid" id="claimsGrid">
+          <thead>
+            <tr><th data-key="patient">Patient</th><th data-key="provider">Provider</th><th data-key="amount">Amount</th><th data-key="status">Status</th></tr>
+          </thead>
+          <tbody id="gridBody"></tbody>
+        </table>
+        <div class="grid-demo-foot" id="gridFoot"></div>
+        <div class="work-body">
+          <p>Built and maintained core UI for an EHR billing system handling insurance claims, payment posting, and patient balances. Owned a modular component library rendering high-volume tabular ledger data without performance degradation.</p>
+          <div class="work-metrics">
+            <div class="metric"><div class="num">50+</div><div class="cap">PRACTICES MIGRATED</div></div>
+            <div class="metric"><div class="num">0</div><div class="cap">DOWNTIME INCIDENTS</div></div>
+          </div>
+          <div class="chip-row">
+            <span class="chip">React</span><span class="chip">TypeScript</span><span class="chip">Redux Toolkit</span>
+            <span class="chip">DevExtreme</span><span class="chip">Axios</span><span class="chip">Azure</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="work-card">
+        <div class="work-top">
+          <div class="work-icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l3 3"></path></svg>
+          </div>
+          <div class="work-top-text">
+            <div class="tag">OPERATIONS · SCHEDULING</div>
+            <h3>Real-Time Enterprise Scheduling System</h3>
+          </div>
+        </div>
+        <div class="work-body">
+          <p>Engineered a responsive scheduler with live WebSocket updates for calendar availability, resolving state conflicts across concurrent bookings. Designed a multi-step configuration flow for public wellness program registration and a secure QR-based guest check-in path.</p>
+          <div class="work-metrics">
+            <div class="metric"><div class="num">Live</div><div class="cap">WEBSOCKET SYNC</div></div>
+            <div class="metric"><div class="num">RBAC</div><div class="cap">ROUTE PROTECTION</div></div>
+          </div>
+          <div class="chip-row">
+            <span class="chip">React</span><span class="chip">TypeScript</span><span class="chip">WebSockets</span>
+            <span class="chip">React Router</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="work-card">
+        <div class="work-top">
+          <div class="work-icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 4 5v6c0 5 3.4 8.7 8 10 4.6-1.3 8-5 8-10V5l-8-3z"></path><path d="m9 12 2 2 4-4"></path></svg>
+          </div>
+          <div class="work-top-text">
+            <div class="tag">HEALTH-TECH · ACCESSIBILITY</div>
+            <h3>Patient Insurance Automation &amp; Accessibility Overhaul</h3>
+          </div>
+        </div>
+        <div class="work-body">
+          <p>Led UI updates across a primary EHR web app, building secure client-side flows for automated patient insurance processing, and enforced WCAG 2.1 accessibility across every healthcare module shipped.</p>
+          <div class="work-metrics">
+            <div class="metric"><div class="num">100%</div><div class="cap">MODULES WCAG-AUDITED</div></div>
+            <div class="metric"><div class="num">Azure</div><div class="cap">CI/CD PIPELINE</div></div>
+          </div>
+          <div class="chip-row">
+            <span class="chip">React</span><span class="chip">TypeScript</span><span class="chip">Azure</span><span class="chip">Accessibility</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <div class="wrap">
+    <div class="section-tag">Toolkit</div>
+    <h2>What I build with</h2>
+    <div class="skills-grid">
+
+      <div class="skill-cat">
+        <h4>Frontend</h4>
+        <div class="skill-list">
+          <div class="skill-item"><span class="skill-icon"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg></span>React</div>
+          <div class="skill-item"><span class="skill-icon"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7V4h16v3"></path><path d="M9 20h6"></path><path d="M12 4v16"></path></svg></span>TypeScript</div>
+          <div class="skill-item"><span class="skill-icon"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 8v8"></path><path d="M12 8v8"></path><path d="M17 8v8"></path></svg></span>JavaScript ES6+</div>
+          <div class="skill-item"><span class="skill-icon"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"></rect><path d="M3 9h18"></path></svg></span>HTML5 / SCSS</div>
+        </div>
+      </div>
+
+      <div class="skill-cat">
+        <h4>State &amp; Data</h4>
+        <div class="skill-list">
+          <div class="skill-item"><span class="skill-icon"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="2.5"></circle><circle cx="18" cy="6" r="2.5"></circle><circle cx="12" cy="18" r="2.5"></circle><path d="M8 7l3 9M16 7l-3 9"></path></svg></span>Redux Toolkit</div>
+          <div class="skill-item"><span class="skill-icon"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="5" r="2"></circle><circle cx="6" cy="19" r="2"></circle><circle cx="18" cy="19" r="2"></circle><path d="M12 7v4M12 11l-5 6M12 11l5 6"></path></svg></span>Context API</div>
+          <div class="skill-item"><span class="skill-icon"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="8" height="8" rx="1"></rect><rect x="13" y="3" width="8" height="8" rx="1"></rect><rect x="3" y="13" width="8" height="8" rx="1"></rect><rect x="13" y="13" width="8" height="8" rx="1"></rect></svg></span>DevExtreme</div>
+          <div class="skill-item"><span class="skill-icon"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="3"></rect><path d="M4 10h16"></path></svg></span>Material UI</div>
+        </div>
+      </div>
+
+      <div class="skill-cat">
+        <h4>Integration</h4>
+        <div class="skill-list">
+          <div class="skill-item"><span class="skill-icon"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7 0l2-2a5 5 0 0 0-7-7l-1 1"></path><path d="M14 11a5 5 0 0 0-7 0l-2 2a5 5 0 0 0 7 7l1-1"></path></svg></span>REST APIs</div>
+          <div class="skill-item"><span class="skill-icon"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path></svg></span>Axios</div>
+          <div class="skill-item"><span class="skill-icon"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12c2-4 4-4 6 0s4 4 6 0 4-4 6 0"></path></svg></span>WebSockets</div>
+          <div class="skill-item"><span class="skill-icon"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="11" width="14" height="9" rx="2"></rect><path d="M8 11V7a4 4 0 0 1 8 0v4"></path></svg></span>Auth / RBAC</div>
+        </div>
+      </div>
+
+      <div class="skill-cat">
+        <h4>Platform</h4>
+        <div class="skill-list">
+          <div class="skill-item"><span class="skill-icon"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17.5 19H9a5 5 0 1 1 1.3-9.8A6 6 0 0 1 22 12a4.5 4.5 0 0 1-4.5 7z"></path></svg></span>Microsoft Azure</div>
+          <div class="skill-item"><span class="skill-icon"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="2"></circle><circle cx="6" cy="18" r="2"></circle><circle cx="18" cy="12" r="2"></circle><path d="M6 8v8"></path><path d="M8 6h4a4 4 0 0 1 4 4v0"></path></svg></span>Git / GitHub</div>
+          <div class="skill-item"><span class="skill-icon"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="8" ry="3"></ellipse><path d="M4 5v14c0 1.7 3.6 3 8 3s8-1.3 8-3V5"></path><path d="M4 12c0 1.7 3.6 3 8 3s8-1.3 8-3"></path></svg></span>SQL</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="wrap">
+    <div class="section-tag">Get in touch</div>
+    <h2>Let's connect</h2>
+    <div class="contact-grid">
+      <div class="contact-left">
+        <p>Have a dashboard, CRUD app, or a production bug that won't quit? I take on healthcare and data-heavy React/TypeScript projects — from a single stubborn bug to a full admin panel build.</p>
+        <p style="margin-top:16px;"><b style="color:var(--ink)">shalemkumar2001@gmail.com</b><br><b style="color:var(--ink)">+91 93811 34327</b></p>
+        <div class="social-row">
+          <a href="mailto:shalemkumar2001@gmail.com" title="Email">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"></rect><path d="m3 7 9 6 9-6"></path></svg>
+          </a>
+          <a href="#" title="GitHub — add your link">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"></path></svg>
+          </a>
+          <a href="#" title="LinkedIn — add your link">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle><path d="M10 9v12"></path><path d="M10 13a4 4 0 0 1 8 0v8"></path></svg>
+          </a>
+        </div>
+      </div>
+      <form class="contact-form" id="contactForm">
+        <input type="text" id="cf-name" name="name" placeholder="Your name" required>
+        <input type="email" id="cf-email" name="email" placeholder="Your email" required>
+        <textarea id="cf-message" name="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+        <button type="submit" id="cf-submit">Send →</button>
+        <div class="form-status" id="cf-status"></div>
+      </form>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>Hyderabad, India &nbsp;·&nbsp; Built with plain HTML/CSS/JS — because this page is a work sample too.</footer>
+
+<script>
+  const data = [
+    {patient:"J. Reddy", provider:"Sunrise Clinic", amount:1240, status:"approved"},
+    {patient:"A. Sharma", provider:"Metro Health", amount:860, status:"pending"},
+    {patient:"K. Rao", provider:"Sunrise Clinic", amount:2310, status:"approved"},
+    {patient:"P. Nair", provider:"CarePlus Group", amount:540, status:"denied"},
+    {patient:"S. Iyer", provider:"Metro Health", amount:1975, status:"approved"},
+    {patient:"R. Das", provider:"Wellview Partners", amount:410, status:"pending"},
+  ];
+  let sortKey=null, sortAsc=true;
+  function render(rows){
+    document.getElementById('gridBody').innerHTML = rows.map(r => `
+      <tr><td>${r.patient}</td><td>${r.provider}</td><td>$${r.amount.toLocaleString()}</td>
+      <td><span class="status ${r.status}">${r.status}</span></td></tr>`).join('');
+    document.getElementById('gridFoot').textContent = `Showing ${rows.length} of ${data.length}`;
+  }
+  function applyFilterAndSort(){
+    const q = document.getElementById('gridFilter').value.trim().toLowerCase();
+    let rows = data.filter(r => r.patient.toLowerCase().includes(q) || r.provider.toLowerCase().includes(q));
+    if(sortKey){
+      rows = [...rows].sort((a,b)=>{
+        let av=a[sortKey], bv=b[sortKey];
+        if(typeof av==='string'){av=av.toLowerCase();bv=bv.toLowerCase();}
+        if(av<bv) return sortAsc?-1:1;
+        if(av>bv) return sortAsc?1:-1;
+        return 0;
+      });
+    }
+    render(rows);
+  }
+  document.getElementById('gridFilter').addEventListener('input', applyFilterAndSort);
+  document.querySelectorAll('table.grid thead th').forEach(th=>{
+    th.addEventListener('click', ()=>{
+      const key = th.dataset.key;
+      if(sortKey===key){ sortAsc = !sortAsc; } else { sortKey = key; sortAsc = true; }
+      applyFilterAndSort();
+    });
+  });
+  render(data);
+
+  // Replace this with your real Formspree endpoint
+  const FORMSPREE_ENDPOINT = "https://formspree.io/f/mnjkyowo";
+
+  const cfForm = document.getElementById('contactForm');
+  const cfSubmit = document.getElementById('cf-submit');
+  const cfStatus = document.getElementById('cf-status');
+
+  cfForm.addEventListener('submit', async function(e){
+    e.preventDefault();
+    if(FORMSPREE_ENDPOINT.includes('YOUR_FORM_ID')){
+      cfStatus.textContent = "Form isn't connected yet — add your Formspree endpoint in the code.";
+      cfStatus.className = 'form-status show err';
+      return;
+    }
+    cfSubmit.disabled = true;
+    cfSubmit.textContent = 'Sending...';
+    cfStatus.className = 'form-status';
+    const payload = {
+      name: document.getElementById('cf-name').value,
+      email: document.getElementById('cf-email').value,
+      message: document.getElementById('cf-message').value,
+    };
+    try {
+      const res = await fetch(FORMSPREE_ENDPOINT, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+        body: JSON.stringify(payload),
+      });
+      if(res.ok){
+        cfStatus.textContent = "Message sent — thanks! I'll get back to you soon.";
+        cfStatus.className = 'form-status show ok';
+        cfForm.reset();
+      } else {
+        cfStatus.textContent = "Something went wrong — please email me directly instead.";
+        cfStatus.className = 'form-status show err';
+      }
+    } catch (err) {
+      cfStatus.textContent = "Network error — please email me directly instead.";
+      cfStatus.className = 'form-status show err';
+    } finally {
+      cfSubmit.disabled = false;
+      cfSubmit.textContent = 'Send →';
+    }
+  });
+</script>
+
+</body>
+</html>
